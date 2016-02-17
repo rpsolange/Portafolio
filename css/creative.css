@@ -1,0 +1,128 @@
+/* Menú */
+header{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.33);
+}
+header nav a{
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 20px;
+    float: right;
+    padding-top: 6px;
+}
+header a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+/* Background-image section*/
+.image{
+	background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.entrada{
+	font-weight: bold;
+	font-size: 2.5em;
+	color: white;
+	margin-top: 15%;
+}
+.line{
+    width: 30px; 
+    border: 1.5px solid #F05F40;
+}
+.image a{
+	display: block;
+	width: 120px;
+	padding: 10px 20px;
+	color: white;
+	font-size: 0.8em;
+	background-color: #F05F40;
+	border-radius: 30px;
+	text-decoration: none;
+	margin: 4%;
+}
+
+/*Sobre Mí - Section*/
+.aboutme{
+	background-color: #F05F40;
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+.aboutme h3{
+	color: white;
+}
+.aboutme hr{
+	width: 30px;
+	border: 1.5px solid white;
+}
+/*Servicio - Section*/
+.servicio{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.servicio i{
+	color: #F05F40;
+	font-size: 2.5em;
+}
+.servicio a{
+	color: black;
+	text-decoration: none;
+}
+.caja{
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+/*Fotos-Section*/
+.fotos img{
+	width: 100%;
+	height: 100%;
+}
+.fotos .col-md-4{
+	padding: 0%;
+}
+
+/*Ver-Section*/
+.ver{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding:2%;
+}
+.ver button{
+	width: 130px;
+	height: 40px;
+	border-radius: 35px;
+	background-color: white;
+	color: black;
+	font-size: 10px;
+}
+
+/*Footer*/
+footer{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+footer .row{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+footer p{
+	padding: 0% 20% 2%;
+}
+footer hr{
+	width: 30px;
+	border:2.5px solid #F05F40;
+}
+p.rojo {
+	color: #F05F40;
+}
+.comunico i{
+	font-size: 30px;
+}
