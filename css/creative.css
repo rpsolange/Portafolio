@@ -190,6 +190,7 @@ header h6{
 	border-radius: 35px;
 	background-color: white;
 	font-size: 10px;
+	border: none;
 }
 .ver button a{
 	text-decoration: none;
