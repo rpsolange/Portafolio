@@ -195,6 +195,25 @@ header h6{
 	text-decoration: none;
 	color: black;
 }
+@media (max-width: 480px){
+	.ih-item.square.effect6 .info {
+    	background: rgba(240, 95, 64, 0.64);
+	}
+	.ih-item.square.effect6 .info h3 {
+		font-size: 15px;
+		color: rgba(245, 245, 245, 0.70);
+		font-weight: bold;
+		background: none;
+		padding: 5px;
+	}
+	.ih-item.square.effect6 .info p {
+		font-size: 20px;
+		color: white;
+		font-weight: bold;
+		font-style: normal;
+	}
+}
+
 /*Footer*/
 footer{
 	text-align: center;
@@ -217,4 +236,10 @@ p.rojo {
 }
 .comunico i{
 	font-size: 30px;
+}
+
+@media(max-width: 480px){
+	footer p{
+		padding: 0% 8% 2%;
+	}
 }
